@@ -82,7 +82,7 @@ class CardServiceTest extends \PHPUnit\Framework\TestCase
         ];
 
         $result = $this->cardService->orderByRank($card);
-        $this->assertEquals($result,$cardAfterOrderByRank);
+        $this->assertEquals($result, $cardAfterOrderByRank);
     }
 
     public function testOrderBySuit()
@@ -150,6 +150,6 @@ class CardServiceTest extends \PHPUnit\Framework\TestCase
         ];
 
         $result = $this->cardService->orderBySuit($card);
-        $this->assertEquals($result,$cardAfterOrderByRank);
+        $this->assertEquals($result, $cardAfterOrderByRank);
     }
 }

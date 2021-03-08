@@ -34,10 +34,10 @@ class ApiCardController extends AbstractController
             $randomSpadesCards
         );
 
-       $json = $serializer->serialize($cards, 'json');
-       $response = new JsonResponse($json, 200, [], true);
+        $json = $serializer->serialize($cards, 'json');
+        $response = new JsonResponse($json, 200, [], true);
 
-       return $response;
+        return $response;
     }
 
     /**

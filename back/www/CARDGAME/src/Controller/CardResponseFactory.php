@@ -12,19 +12,19 @@ class CardResponseFactory
     {
         $cards = new ArrayCollection();
 
-        foreach ($randomDiamondCards as $randomDiamondCard){
+        foreach ($randomDiamondCards as $randomDiamondCard) {
             $cards->add((new Card())->setSuit(CardsUtils::CARD_TYPE_DIAMOND)->setValue($randomDiamondCard));
         }
 
-        foreach ($randomClubCards as $randomClubCard){
+        foreach ($randomClubCards as $randomClubCard) {
             $cards->add((new Card())->setSuit(CardsUtils::CARD_TYPE_CLUB)->setValue($randomClubCard));
         }
 
-        foreach ($randomHeartCards as $randomHeartCard){
+        foreach ($randomHeartCards as $randomHeartCard) {
             $cards->add((new Card())->setSuit(CardsUtils::CARD_TYPE_HEART)->setValue($randomHeartCard));
         }
 
-        foreach ($randomSpadesCards as $randomSpadesCard){
+        foreach ($randomSpadesCards as $randomSpadesCard) {
             $cards->add((new Card())->setSuit(CardsUtils::CARD_TYPE_SPADES)->setValue($randomSpadesCard));
         }
 
@@ -32,7 +32,6 @@ class CardResponseFactory
         Shuffle($cards);
 
 
-       return CardsUtils::getRandomData($cards, 10);
+        return CardsUtils::getRandomData($cards, 10);
     }
-
 }
