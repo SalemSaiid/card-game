@@ -1,6 +1,7 @@
 # Card Game test with Docker, Symfony5 and Angular11
 
 This is a simple project (Card Game) 
+[![Capture-d-e-cran-2021-03-08-a-13-25-41.png](https://i.postimg.cc/wMHnwZZg/Capture-d-e-cran-2021-03-08-a-13-25-41.png)](https://postimg.cc/Kkq9zqmH)
 
 ## installation & Starting 
 These instructions apply if you installed:
