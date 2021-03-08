@@ -16,6 +16,10 @@ These instructions apply if you installed:
          
      - Unit Tests: 
                   bin/phpunit<br>
+                  
+     - PHP_CodeSniffer: 
+           ./vendor/bin/phpcs<br>
+           ./vendor/bin/phpcbf<br> 
    # Front:  <br>
      - URL Project with Angular: http://localhost:9898/<br>
      - Not Found page: http://localhost:9898/notfound-ozozo<br>
